@@ -1,0 +1,43 @@
+.note-container {
+  background-color: #f7f7f7;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.note-title {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.note-content {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.note-date {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.delete-button {
+  background-color: #698cff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.delete-button:hover {
+  background-color: #4567ff;
+}
+
+.note-container:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
